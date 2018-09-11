@@ -1,0 +1,64 @@
+.body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image:url(../../images/fondos/paisaje3.jpg);
+
+}
+
+#contenedor{
+    background: rgba(56, 28, 31, 0.4);
+    color:white;
+}
+#contenedor1{
+    background: rgba(197, 41, 31, 0.4)
+}
+
+#nav h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#nav h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#search{
+    display: inline-block;
+   margin: 10px;
+    width: 65%;
+
+}
+#button{
+    margin-top: 11px;
+    display: inline-block;
+}
+#menu{
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+#menu li{
+    color: black
+}
+#tit{
+    font-family: 'Gloria Hallelujah', cursive;
+    align-content: space-around;
+}
+
+#Favoritos{
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+#link{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 20px
+}
+p{
+    font-family: 'Poor Story', cursive;
+    
+}
+img {
+    border-radius:50%; 
+}
+

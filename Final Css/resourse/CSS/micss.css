@@ -1,0 +1,38 @@
+#logo1{
+    border-radius: 5px;
+}
+#barra{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+li {
+    display: inline;
+    margin: 5px;
+    
+    
+}
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../../images/fondos/fondo2.jpg);
+}
+.bordes{
+    border-radius: 10px;
+    margin-top:5px;
+}
+.navegar{
+    background-color: rgba(29, 46, 164, 0.5);
+    
+}
+    #img1{
+        margin: 10px
+    }
+    p{
+        margin: 10px;
+    }
+#boton{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
