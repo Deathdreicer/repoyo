@@ -377,9 +377,14 @@ function Iniciar() {
 		}
 		checkBoard();
 		$(this).text('Reiniciar');
-		$('#timer').startTimer({
-			onComplete: endGame
-		})
+		$('#timer').timer({
+			duration: "2m",
+			format: '%M:%S',
+			countdown: true,
+			callback: function(){
+				endGame();
+			}
+		});
 	});
 }
 
@@ -393,4 +398,9 @@ function constrainCandyMovement(event, dulcePin) {
 	dulcePin.position.bottom = Math.min(100, dulcePin.position.bottom);
 	dulcePin.position.left = Math.min(100, dulcePin.position.left);
 	dulcePin.position.right = Math.min(100, dulcePin.position.right);
+
+	return dulcePin;
 }
+
+
+
